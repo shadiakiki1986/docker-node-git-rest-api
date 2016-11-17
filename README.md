@@ -1,5 +1,5 @@
-To be published to docker hub
+Dockerfile for [node-git-rest-api](https://github.com/korya/node-git-rest-api)
 
-docker build -t node-git-rest-api .
+Published on [Docker hub](https://hub.docker.com/r/shadiakiki1986/docker-node-git-rest-api/builds/)
 
-https://github.com/korya/node-git-rest-api
+To build locally: `docker build -t node-git-rest-api .`

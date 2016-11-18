@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
-    "git-rest-api": "^0.1.5"
+    "git-rest-api": "git+https://github.com/shadiakiki1986/node-git-rest-api.git"
   }
 }

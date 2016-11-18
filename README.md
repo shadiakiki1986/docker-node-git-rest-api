@@ -4,9 +4,9 @@ Published on [Docker hub](https://hub.docker.com/r/shadiakiki1986/docker-node-gi
 
 To use published docker: `docker run -p 8081:8081 -it shadiakiki1986/docker-node-git-rest-api`
 
-To build locally: `docker build -t node-git-rest-api .`
+To build locally: `docker build -t shadiakiki1986/docker-node-git-rest-api .`
 
-To use local build: `docker run -p 8081:8081 -it node-git-rest-api`
+To use local build: `docker run -p 8081:8081 -it shadiakiki1986/docker-node-git-rest-api`
 
 An example php client is https://github.com/shadiakiki1986/git-rest-api-client-php
 

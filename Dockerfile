@@ -10,6 +10,7 @@ RUN apk --update add openssh git > /dev/null && \
 
 COPY . .
 RUN npm install
+# path below is same as in init workdir in index.js
 RUN mkdir -p /tmp/git/1161017-23323-pfc5zt
 
 ENTRYPOINT node index.js

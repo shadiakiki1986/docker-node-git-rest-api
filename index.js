@@ -6,7 +6,7 @@ git.init(
   app,
   {
     installMiddleware: true,
-    workDir: '/tmp/git/1161017-23323-pfc5zt' // dummy ATM, coupled with corresponding path in Dockerfile
+    workDir: '/tmp/git/1161017-23323-pfc5zt'
   }
 ).then(function () {
   app.listen(port);

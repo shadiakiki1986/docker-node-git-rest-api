@@ -1,5 +1,5 @@
 {
-  "name": "test-gitrest",
+  "name": "docker-node-git-rest-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,9 @@
   "dependencies": {
     "express": "^4.14.0",
     "git-rest-api": "git+https://github.com/shadiakiki1986/node-git-rest-api.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadiakiki1986/docker-node-git-rest-api.git"
   }
 }

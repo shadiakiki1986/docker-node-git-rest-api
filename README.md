@@ -20,3 +20,7 @@ var workDir = '/tmp/git/1161017-23323-pfc5zt'
 and build locally
 
 When the issue is resolved, I can modify the workdir path in index.js and the one in the dockerfile
+
+# trigger automatic build
+Upon updates to node-git-rest-api, just update the latest version in package.json and commit then push.
+This will trigger an automatic build

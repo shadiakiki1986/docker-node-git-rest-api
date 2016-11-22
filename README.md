@@ -10,6 +10,9 @@ To use local build: `docker run -p 8081:8081 -it shadiakiki1986/docker-node-git-
 
 An example php client is https://github.com/shadiakiki1986/git-rest-api-client-php
 
+Can pass environment variables supported by [node-git-rest-api](https://github.com/shadiakiki1986/node-git-rest-api#environment-variables),
+e.g. `docker run -p 8081:8081 --env LOGLEVEL=info -it shadiakiki1986/docker-node-git-rest-api`
+
 # TODO
 This is pending https://github.com/korya/node-git-rest-api/issues/1
 ATM, I just apply the patch

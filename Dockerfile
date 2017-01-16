@@ -9,7 +9,7 @@ RUN apk --update add openssh git > /dev/null && \
     rm -rf /var/cache/apk/*
 
 COPY . .
-RUN npm install
+RUN rm -rf node_modules && npm install
 # path below is same as in init workdir in index.js
 RUN mkdir -p /tmp/git/1161017-23323-pfc5zt
 

@@ -12,5 +12,6 @@ COPY . .
 RUN rm -rf node_modules/git-rest-api && npm install 
 # path below is same as in init workdir in index.js
 RUN mkdir -p /tmp/git/1161017-23323-pfc5zt
+VOLUME /tmp/git/1161017-23323-pfc5zt
 
 ENTRYPOINT node index.js
